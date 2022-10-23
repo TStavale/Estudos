@@ -8,30 +8,62 @@
     </head>
     <body>
         <h3>Cadastro da liga dos Astronautas</h3>
-        <form action="fname">
-            <label for="">Nome:</label>
-            <input type="text" name="fname" id="fname" required>
+        <form action="">
+            <div>
+                <label for="fname">Nome:</label>
+                <input type="text" name="fname" id="fname" required>
+            </div>
             <br>
-            <br>
-            <label for="femail">Email:</label>
-            <input type="email" name="femail" id="femail">
+            <div>
+                <label for="femail">Email:</label>
+                <input type="email" name="femail" id="femail" required> - 
 
-            <label for="fpassword">Password:</label>
-            <input type="password" name="fpassword" id="fpassword">
+                <label for="fpassword">Password:</label>
+                <input type="password" name="fpassword" id="fpassword" required>
+            </div>
             <br>
+            <div>
+                <label for="fdate">Data de nascimento</label>
+                <input type="date" name="fdate" id="fdate"> - 
+                <label for="photo">Foto</label>
+                <input type="file" name="photo" id="photo">
+            </div>
             <br>
-            <label for="">Data de nascimento</label>
-            <input type="date"> - 
-            <input type="file">
+            <div>
+                <label for="nationality">Nacionalidade</label>
+                <select name="nationality" id="nationality" required>
+                    <option value="">selecione</option>
+                    <option value="Ru">Russa</option>
+                    <option value="EUA">Americano</option>
+                    <option value="Br">Brasileiro</option>
+                </select> - 
+                <span>Gênero:</span>
+                <label for="female">F</label>
+                <input type="radio" value="female" id="female" name="gender">
+                <label for="male">M</label>
+                <input type="radio" value="male" name="gender" id="male">
+            </div>
             <br>
+            <div>
+                <span>Suas Principais qualidades:</span>
+                <br>
+                <label for="fcheckbox1">Inteligência</label>
+                <input type="checkbox" value="Inteligência" id="fcheckbox1" name="fcheckbox1">
+                <label for="fcheckbox2">Resiliência</label>
+                <input type="checkbox" value="Resiliência" name="fcheckbox2" id="fcheckbox2">
+                <label for="fcheckbox3">Preparo Físico</label>
+                <input type="checkbox" value="Preparo_Físico" name="fcheckbox3" id="fcheckbox3">
+                <label for="fcheckbox4">Educação</label>
+                <input type="checkbox" value="educacao" name="fcheckbox4" id="fcheckbox4">
+            </div>
             <br>
-            <label for="">Gênero:</label>
-            <input type="checkbox" value="F">
-            <input type="checkbox" value="M">
-
+            <div>
+                <textarea name="description" id="description" cols="30" rows="10" placeholder="Porque você gostaria de ser um austronauta?"></textarea>
+            </div>
             <br>
-            <br>
-            <input type="submit" value="Criar">
+            <div>
+                <input type="submit" value="Criar">
+            </div>
         </form>
 
 
