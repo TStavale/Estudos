@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+
+    <h2>Encontre no Google</h2>
+    <form action="https://www.google.com/search?">
+        <label for="query">O que deseja pesquisar?</label>
+        <input type="text" name="q" id="query" placeholder="ge, flamengo" required> <!--aqui para validar, usei o 'required'.-->
+
+        <input type="submit" value="Pesquisar">
+    </form>
+        <!-- Exemplos de tipos de input-->
+        <form action="https://www.google.com/search?">
+            <label for="query">Qual e-mail deseja pesquisar?</label>
+            <input type="email" name="q" id="query" placeholder="@gmail, @hotmail" autocomplete="off"> 
+            <!--aqui o 'type' é 'email', entrão o input espera um email valido. Usei o 'autocomplete' em 'off' para 
+                impedir que o input complete quando clicado.-->
+
+    
+            <input type="submit" value="Pesquisar">
+    </form>
+    <form action="https://www.google.com/search?">
+        <label for="query">Qual numero deseja pesquisar?</label>
+        <input type="number" name="q" id="query" placeholder="6,8,10" min="5" max="15"> 
+        <!--aqui o 'type' é 'number', entrão o input espera um numero e limitei essas numeração entre 5 e 15.-->
+ 
+        <input type="submit" value="Pesquisar">
+</form>
+
+        
+    
+
+</body>
+</html>

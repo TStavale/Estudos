@@ -1,19 +1,40 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
-</head>
-<body>
-    
-    <h2>Encontre no Google</h2>
-    <form action="https://www.google.com/search?">
-        <label for="query">O que deseja pesquisar?</label>
-        <input type="text" name="q" id="query" placeholder="ge, flamengo">
-        <input type="submit" value="Pesquisar">
-    </form>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form Exercicio</title>
+    </head>
+    <body>
+        <h3>Cadastro da liga dos Astronautas</h3>
+        <form action="fname">
+            <label for="">Nome:</label>
+            <input type="text" name="fname" id="fname" required>
+            <br>
+            <br>
+            <label for="femail">Email:</label>
+            <input type="email" name="femail" id="femail">
 
-</body>
+            <label for="fpassword">Password:</label>
+            <input type="password" name="fpassword" id="fpassword">
+            <br>
+            <br>
+            <label for="">Data de nascimento</label>
+            <input type="date"> - 
+            <input type="file">
+            <br>
+            <br>
+            <label for="">Gênero:</label>
+            <input type="checkbox" value="F">
+            <input type="checkbox" value="M">
+
+            <br>
+            <br>
+            <input type="submit" value="Criar">
+        </form>
+
+
+        
+    </body>
 </html>
