@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SPACEX</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html">
+                    <img src="assets/img/logo.png" alt="SpaceX" width="180px">                   
+                </a>
+                <a href="spaceship.html">The Spaceships</a> |
+                <a href="hire_us.html">Hire Us</a>
+            </nav>
+        </header>
+        <hr>
+        <section>
+            <div>
+                <h3>Hire Us Now</h3>
+            </div>
+            <div>
+                <p>Leave a message to request one of oour services and we will get back to you as soon as possible.</p>
+            </div>
+        </section>
+        <br>
+        <section>
+            <form action="">
+                <div>
+                    <label for="nome">Name:</label>
+                    <input type="text" name="nome" id="nome" required> -
+
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <label for="naves">Spaceship:</label>
+                    <select name="" id="naves">
+                        <option value="">select<selecione</option>
+                        <option value="falcon_9">Falcon 9</option>
+                        <option value="Falcon_Heavy">Falcon Heavy</option>
+                    </select> |
+
+                    <label for="servicos">Type of Service:</label>
+                    <input type="search" id="servicos" name="servicos" list="services"> <!-- O "list" add ao input serve para comunicação com o 'datalist'  de mesmo 'id'.-->
+                    <datalist id="services">
+                        <option value="service1">Lorem Ipsum has been the industry</option>
+                        <option value="service2">It was popularised in the 1960s</option>
+                        <option value="service3">There are many variations of passages of Lorem Ipsum available</option>
+                        <option value="service4">It has survived not only five centuries</option>
+                    </datalist>
+                </div>
+                <br>
+                <br>
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+    </body>
+</html>
