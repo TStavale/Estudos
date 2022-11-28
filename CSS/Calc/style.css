@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Serve para fazer cálculos, facilitando na hora de definir um espaço, 
+podemos usar View Width (vw) e View height (vh), subtraindo, somando, dividindo ou mutiplicando algum valor. */
+
+.container {
+    height: calc(100vh - 200px);
+    width: calc((50vw + 200px) / 2);
+    background: #ff0000;
+}
+
