@@ -1,0 +1,191 @@
+@media screen and (max-width: 1360PX){
+
+    section {
+        display: inline-block;
+        margin: 0;
+
+    }
+
+    .logo-image {
+        max-width: 90%;
+        height: 317px;
+        position: static;
+        margin: 0 50px 24px 30px;
+
+    
+    }
+
+    h1 {
+        font-size: 40px;
+        line-height: 61px;
+        margin: 0 50px 0 100px;
+        
+    }
+    
+    h2 {
+        font-size: 25px;
+        line-height: 37px;
+        margin: 7px 79px 0 105px;
+    }
+
+    .text-box {
+        width: 400px;
+        font-size: 18px;
+        line-height: 29px;
+        margin: 20px 15px 35px;
+    
+    }
+
+    header {
+        margin: 44px 0 144px 40px;
+    }
+
+    .btn-explore {
+        margin: 0 105px;
+    }
+
+}
+
+@media screen and (max-width: 900PX){
+    body {
+        margin: 0;
+        
+    }
+
+    section {
+        display: inline-block;
+        margin: 0;
+        
+
+    }
+
+    .logo-image {
+        max-width: 90%;
+        height: 317px;
+        position: static;
+        margin: 0 50px 24px 30px;
+
+    
+    }
+
+    h1 {
+        font-size: 40px;
+        line-height: 61px;
+        margin: 0 70px;
+        
+    }
+    
+    h2 {
+        font-size: 25px;
+        line-height: 37px;
+        margin: 7px 79px 0 79px;
+    }
+
+    .text-box {
+        width: 400px;
+        font-size: 18px;
+        line-height: 29px;
+        margin: 20px 15px 35px;
+    
+    }
+
+    header {
+        margin: 44px 0 144px 40px;
+    }
+
+    .btn-explore {
+        margin: 0 60px;
+    }
+
+}
+
+@media screen and (max-width: 600PX){
+    body {
+        margin: 0;
+    }
+
+    section {
+        display: block;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .logo-image {
+        max-width: 90%;
+        height: 317px;
+        position: static;
+        margin: 149px 20px 24px 20px;
+
+    
+    }
+
+    h1 {
+        font-size: 50px;
+        line-height: 61px;
+        margin: 0 64px;
+        
+    }
+    
+    h2 {
+        font-size: 30px;
+        line-height: 37px;
+        margin: 7px 79px 17px 79px;
+    }
+
+    header, .text-box{
+        display: none;
+    }
+
+    .btn-explore {
+        margin: 0 76px;
+    }
+
+}
+
+@media screen and (max-width: 330PX){
+
+
+    section {
+        display: block;
+        margin: 0;
+        width: 100%;
+
+    }
+
+    .logo-image {
+        width: 254px;
+        height: 217px;
+        position: static;
+        margin: 149px 20px 24px 40px;
+
+    
+    }
+
+    h1 {
+        font-size: 35px;
+        line-height: 61px;
+        margin: 0 70px;
+        
+    }
+    
+    h2 {
+        font-size: 18px;
+        line-height: 37px;
+        margin: 7px 79px 17px 95px;
+    }
+
+    header, .text-box{
+        display: none;
+    }
+
+    .btn-explore {
+        width: 180px;
+        height: 40px;
+        margin: 0 76px;
+
+        font-size: 20px;
+    }
+
+}
