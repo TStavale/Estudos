@@ -154,11 +154,23 @@ const calculationResult = numb8 % numb9;
 
 console.log("Resultado do exercício 12 = " + calculationResult);
 
-/* Exercício 13 - Crie um programa que mostra o tamanho do Array. Ex: const array = [0, 1] imprime: 2. const array = 
+/* Exercício 13 - Faça um programa onde entramos com dois números, e ele imprime se o primeiro número é maior que o segundo. 
+Ex: 2 e 5. Imprime: false.Faça um programa onde entramos com dois números, e ele imprime se o primeiro número é menor que o 
+segundo. Ex: 2 e 5. Imprime: true. */
+
+const firstNumb = 12;
+const secondNumb = 35;
+
+const calculation = firstNumb > secondNumb;
+const calculation2 = firstNumb < secondNumb;
+
+console.log(`Resultado do exercício 13 = ${firstNumb} é maior que ${secondNumb}? ${calculation}. E menor? ${calculation2}.`);
+
+/* Exercício 14 - Crie um programa que mostra o tamanho do Array. Ex: const array = [0, 1] imprime: 2. const array = 
 ["banana", "Maça", "laranja"] imprime: 3 */
 
 const array = [0, "João", {name: "Carlos"}, 5];
 
-console.log("Resultado do exercício 13 = " + array.length);
+console.log("Resultado do exercício 14 = " + array.length);
 
 //Exercício finalizado.
