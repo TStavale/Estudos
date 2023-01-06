@@ -4,7 +4,7 @@
 Ele é uma função.
 Cria um novo array, a partir do array percorrido (array original).
 Cria um novo array, com a mesma quantidade de itens do array original. ELe RETORNA um novo array que pode ser guardado em algum lugar.
-Aceita 3 parãmetros;
+Aceita 3 parâmetros;
     -item do array;
     -index;
     -array completo.
